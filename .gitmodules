@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/fujii-kazuki/spa-with-authentication-function-backend
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/fujii-kazuki/spa-with-authentication-function-frontend
