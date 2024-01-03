@@ -52,6 +52,6 @@ services:
       - ./frontend:/frontend
     environment:
       TZ: Asia/Tokyo
-      VITE_APP_API_BASE: ${APP_API_BASE:-http://localhost}
+      VITE_APP_API_BASE: ${APP_API_BASE:-http://localhost:3000}
     tty: true
     stdin_open: true
